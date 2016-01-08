@@ -41,5 +41,4 @@ Rails.application.configure do
 
   #  render error responses using the API format (JSON by default)
   config.debug_exception_response_format = :api
-
 end
