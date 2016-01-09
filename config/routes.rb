@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  post 'users/register', to: 'users#create'
+  post 'users', to: 'users#login'
+  patch 'users', to: 'users#update'
+  delete 'users', to: 'users#destroy'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
