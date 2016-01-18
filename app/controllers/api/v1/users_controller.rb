@@ -8,7 +8,7 @@ module Api
         if @user && @user.authenticate(params[:user][:password])
           render 'login.json.jbuilder', status: :ok
         else
-          render json: { errors: "Username or Password incorrect." }, status: :unauthorized
+          render json: { errors: { detail: "Username or Password incorrect." } }, status: :unauthorized
         end
       end
 
