@@ -1,0 +1,9 @@
+anguage: ruby
+rvm:
+  - 2.3.0
+env:
+  - DB=pee_buddy_test
+script:
+  - RAILS_ENV=test bundle exec rake db:migrate test
+before_script:
+  - psql -c 'create database pee_buddy_test' -U postgres

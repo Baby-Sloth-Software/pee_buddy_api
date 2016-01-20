@@ -1,6 +1,6 @@
 # Pee Buddy API
 <hr>
-[![Build Status](https://travis-ci.org/pee_buddy_api.svg?branch=master)](https://travis-ci.org/Baby-Sloth-Software/pee_buddy_api.svg?branch=master)
+[![Build Status](https://travis-ci.org/Baby-Sloth-Software/pee_buddy_api.svg?branch=master)](https://travis-ci.org/Baby-Sloth-Software/pee_buddy_api)
 
 Welcome to the Pee Buddy API documentation.  This application will allow you to store and rate bathrooms found using Google Places API V3.
 
