@@ -1,6 +1,6 @@
 # Pee Buddy API
 <hr>
-[![Build Status](https://travis-ci.org/pee_buddy_api.svg?branch=master)](https://travis-ci.org/Baby-Sloth-Software/pee_buddy_api.svg?branch=master)
+[![Build Status](https://travis-ci.org/Baby-Sloth-Software/pee_buddy_api.svg?branch=master)](https://travis-ci.org/Baby-Sloth-Software/pee_buddy_api)
 
 Welcome to the Pee Buddy API documentation.  This application will allow you to store and rate bathrooms found using Google Places API V3.
 
@@ -61,7 +61,7 @@ If unsuccessful, you will receive:
 
 This request will allow an existing user in the system to send their email and password and return back an auth\_token back.  The auth\_token must be used for all subsequent requests (except for User Registration).
 
-####POST `/users`
+####POST `/api/v1/users`
 
 **Request**
     
