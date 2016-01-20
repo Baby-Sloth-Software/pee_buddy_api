@@ -61,7 +61,7 @@ If unsuccessful, you will receive:
 
 This request will allow an existing user in the system to send their email and password and return back an auth\_token back.  The auth\_token must be used for all subsequent requests (except for User Registration).
 
-####POST `/users`
+####POST `/api/v1/users`
 
 **Request**
     
