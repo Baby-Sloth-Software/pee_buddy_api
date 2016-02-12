@@ -1,3 +1,4 @@
+require "pry"
 module Api
   module V1
     class LocationsController < ApplicationController
@@ -17,7 +18,7 @@ module Api
       end
 
       def show
-
+  
         binding.pry
         
       end
