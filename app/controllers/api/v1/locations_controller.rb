@@ -1,8 +1,14 @@
-require "pry"
 module Api
   module V1
     class LocationsController < ApplicationController
-      before_action :authenticate_user!
+      #before_action :authenticate_user!
+      #include ResourceLoader
+      #before_action :set_resource, only: [:show, :update, :confirm_by_venue, :confirm_by_artist]
+
+      def index
+        @locations = Location.all
+        render "index.json.jbuilder", status: :ok
+      end
 
       def create
         locations = params["locations"]
@@ -18,7 +24,6 @@ module Api
       end
 
       def show
-  			binding.pry
       end
 
     end

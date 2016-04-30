@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
   has_secure_password
+  has_many :ratings
+  has_many :locations, through: :ratings, as: :rated_locations
 
   before_validation :ensure_auth_token
 
